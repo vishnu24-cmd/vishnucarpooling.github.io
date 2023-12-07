@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +49,7 @@
 
         .button {
             background-color: #4CAF50;
-            color: white;
+            color: #fff;
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -56,6 +57,8 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+            border: none;
+            border-radius: 5px;
         }
 
         form {
@@ -70,30 +73,29 @@
             margin: 10px;
             text-align: center;
         }
-
-        /* Add more styles for buttons, text fields, etc. */
     </style>
 </head>
+
 <body>
 
     <header>
-        <h1>Carpooling Service</h1>
-        <p>Find rides or offer rides to share the journey!</p>
+        <h1 style="color: #fff;">Carpooling Service</h1>
+        <p style="color: #fff;">Find rides or offer rides to share the journey!</p>
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Find a Ride</a>
-        <a href="#">Offer a Ride</a>
-        <a href="#">Login</a>
+        <a href="#" style="color: #fff;">Home</a>
+        <a href="#" style="color: #fff;">Find a Ride</a>
+        <a href="#" style="color: #fff;">Offer a Ride</a>
+        <a href="#" style="color: #fff;">Login</a>
     </nav>
 
     <section>
         <form>
-            <label for="source">Source:</label>
+            <label for="source" style="color: #333;">Source:</label>
             <input type="text" id="source" placeholder="Enter your location">
 
-            <label for="destination">Destination:</label>
+            <label for="destination" style="color: #333;">Destination:</label>
             <input type="text" id="destination" placeholder="Enter your destination">
 
             <button type="submit" class="button">Search Rides</button>
@@ -117,4 +119,5 @@
     </footer>
 
 </body>
+
 </html>
